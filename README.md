@@ -19,7 +19,7 @@ Die Tabellenzeilen können expandiert werden um Titel, Lauf, Abteilung, Bahn und
 
 # Backend
 Die Backend-Komponente extrahiert und die Daten aus der Aquarius DB und transferiert sie per SFTP auf den Webserver zu der Frontent-Komponente:
-https://github.com/bitsbystefan.github.io/AquaLiveResults_Backend
+https://github.com/bitsbystefan/AquaLiveResults_Backend
   
 # Daten
 Die Backend-Komponente extrahiert die Rennergebnisse und aktualisiert (im Standard alle 3 Minuten) die Datei ./public/data/aquarius_db_output.json per SFTP.
